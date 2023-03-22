@@ -1,0 +1,572 @@
+---
+import Layout from "../layouts/Sticky.astro";
+import Statistics from "../components/blocks/content/Statistics.astro";
+const title = "Home";
+---
+
+<Layout title={title}>
+  <div class="hero is-fullheight is-center has-top-bg">
+    <img class="top-bg-alt" src="/img/bg/top-bg-alt.svg" alt="" />
+
+    <div class="hero-body">
+      <div class="container">
+        <div class="columns is-vcentered mt-6">
+          <div class="column">
+            <h1 class="title is-1 is-bold">Build your super idea</h1>
+            <p
+              class="subtitle is-5 mx-auto max-w-5 b-centered-tablet-p text-medium"
+            >
+              Product technology leadership and development for mobile, web, app services, platforms,
+              data pipelines and more.
+            </p>
+            <div class="buttons">
+              <a class="button is-primary is-medium is-raised" href="#skills"
+                >Discover</a
+              >
+              <a class="button is-primary is-outlined is-medium" href="#hire-us">Get Started</a>
+            </div>
+            <div class="mx-auto max-w-6">
+              <img
+                class="light-image-block mx-auto"
+                src="/img/vectors/sdlc.svg"
+                alt=""
+              />
+              <img
+                class="dark-image-block mx-auto"
+                src="/img/vectors/sdlc.svg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- <div class="section">
+    <div class="container">
+      <div class="feature-block-v6">
+        <div class="columns is-vcentered is-multiline">
+          <div class="column is-6">
+            <img
+              class="block mx-auto"
+              src="/img/photo/600x500/15.jpg"
+              alt="Block image"
+            />
+          </div>
+
+          <div class="column is-5 is-offset-1">
+            <div class="columns is-multiline b-columns-half-tablet-p">
+              <div class="column is-6">
+                <div class="py-2 medium:py-4">
+                  <i
+                    class="iconify rem-150 text-primary"
+                    data-icon="ph:device-mobile-duotone"></i>
+                  <h4 class="title is-6 is-narrow">Free to download</h4>
+                  <p class="pt-2 max-w-2 text-medium rem-90">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </p>
+                </div>
+              </div>
+              <div class="column is-6">
+                <div class="py-2 medium:py-4">
+                  <i
+                    class="iconify rem-150 text-primary"
+                    data-icon="ph:sparkle-duotone"></i>
+                  <h4 class="title is-6 is-narrow">Easy and intuitive</h4>
+                  <p class="pt-2 max-w-2 text-medium rem-90">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </p>
+                </div>
+              </div>
+              <div class="column is-6">
+                <div class="py-2 medium:py-4">
+                  <i
+                    class="iconify rem-150 text-primary"
+                    data-icon="ph:gauge-duotone"></i>
+                  <h4 class="title is-6 is-narrow">Performant</h4>
+                  <p class="pt-2 max-w-2 text-medium rem-90">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </p>
+                </div>
+              </div>
+              <div class="column is-6">
+                <div class="py-2 medium:py-4">
+                  <i
+                    class="iconify rem-150 text-primary"
+                    data-icon="ph:lock-duotone"></i>
+                  <h4 class="title is-6 is-narrow">Secure</h4>
+                  <p class="pt-2 max-w-2 text-medium rem-90">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+  <div class="section" id="skills">
+    <div class="container">
+      <div class="has-text-centered pb-6">
+        <span class="tag is-primary is-curved is-outlined is-thick mb-2"
+          >Skills</span
+        >
+        <h2 class="title is-3">Our expertise</h2>
+        <p class="subtitle is-5 text-medium">
+          Deep knowledge across the full software development lifecycle
+        </p>
+      </div>
+
+      <div class="feature-block-v12">
+        <!-- Feature -->
+        <div class="py-6">
+          <div class="columns is-vcentered b-centered-tablet-p">
+            <div class="column is-6">
+              <img
+                class="block mx-auto light-image-block"
+                src="/img/vectors/design.svg"
+                alt="Block image"
+              />
+              <img
+                class="block mx-auto dark-image-block"
+                src="/img/vectors/design.svg"
+                alt="Block image"
+              />
+            </div>
+
+            <div class="column is-5">
+              <span class="is-block is-uppercase mb-2 text-primary"
+                >Experience Design</span
+              >
+              <h3 class="title is-3 is-narrow max-w-3 small:mx-auto">
+                Product Experts
+              </h3>
+              <p class="py-2 max-w-4 text-medium mb-4 small:mx-auto">
+                We have skilled product managers with a strong technical leaning
+                able to communicate and work effectively with your development
+                teams and business stakeholders. Our product managers are as comfortable in
+                business meetings as they are in Tmux + Vim <i class="iconify" data-icon="ph:smiley-wink-duotone"></i>.
+              </p>
+              <p class="py-2 max-w-4 text-medium mb-4 small:mx-auto">
+                We've designed and built experiences across multiple sectors
+                including banking, financial services, data analytics, energy and industrials.
+              </p>
+              <!-- <a class="action-link" href="#">
+                <span>See how it works</span>
+                <i class="iconify" data-icon="lucide:arrow-right"></i>
+              </a> -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Feature -->
+        <div class="py-6">
+          <div class="columns is-vcentered b-centered-tablet-p">
+            <div class="column is-5 is-offset-1">
+              <span class="is-block is-uppercase mb-2 text-primary"
+                >Engineering</span
+              >
+              <h3 class="title is-3 is-narrow max-w-3 small:mx-auto">
+                Skilled Polygots
+              </h3>
+              <p class="py-2 max-w-4 text-medium mb-4 small:mx-auto">
+                Our developers works with your
+                team to understand the desired business outcome and are able to
+                build using modern software architecture pardigms leveraging the
+                required tools, languages and frameworks to meet your goals.
+              </p>
+              <p class="py-2 max-w-4 text-medium mb-4 small:mx-auto">
+                While comfortable in any stack as developers, here are
+                some of the frameworks and tools like a lot (by no means exhaustive).
+              </p>
+              <!-- languages -->
+              <div class="is-flex py-4">
+                <div
+                  class="is-flex is-justify-content-center is-align-items-center size-52x52 is-circle bg-muted text-primary mx-2"
+                >
+                  <i class="iconify rem-175" data-icon="fa-brands:rust"></i>
+                </div>
+                <div
+                  class="is-flex is-justify-content-center is-align-items-center size-52x52 is-circle bg-muted text-primary mx-2"
+                >
+                  <i class="iconify rem-175" data-icon="fa6-brands:golang"></i>
+                </div>
+                <div
+                  class="is-flex is-justify-content-center is-align-items-center size-52x52 is-circle bg-muted text-primary mx-2"
+                >
+                  <i
+                    class="iconify rem-175"
+                    data-icon="file-icons:typescript-alt"></i>
+                </div>
+                <div
+                  class="is-flex is-justify-content-center is-align-items-center size-52x52 is-circle bg-muted text-primary mx-2"
+                >
+                  <i class="iconify rem-175" data-icon="simple-icons:kotlin"
+                  ></i>
+                </div>
+              </div>
+              <!-- frameworks -->
+              <div class="is-flex py-4">
+                <div
+                  class="is-flex is-justify-content-center is-align-items-center size-52x52 is-circle bg-muted text-primary mx-2"
+                >
+                  <i class="iconify rem-175" data-icon="fa-brands:node-js"></i>
+                </div>
+                <div
+                  class="is-flex is-justify-content-center is-align-items-center size-52x52 is-circle bg-muted text-primary mx-2"
+                >
+                  <i class="iconify rem-175" data-icon="fa-brands:react"></i>
+                </div>
+                <div
+                  class="is-flex is-justify-content-center is-align-items-center size-52x52 is-circle bg-muted text-primary mx-2"
+                >
+                  <i class="iconify rem-175" data-icon="file-icons:svelte"></i>
+                </div>
+                <div
+                  class="is-flex is-justify-content-center is-align-items-center size-52x52 is-circle bg-muted text-primary mx-2"
+                >
+                  <i class="iconify rem-175" data-icon="simple-icons:astro"></i>
+                </div>
+              </div>
+              <!-- frameworks -->
+              <div class="is-flex py-4">
+                <div
+                  class="is-flex is-justify-content-center is-align-items-center size-52x52 is-circle bg-muted text-primary mx-2"
+                >
+                  <i class="iconify rem-175" data-icon="fa-brands:swift"></i>
+                </div>
+                <div
+                  class="is-flex is-justify-content-center is-align-items-center size-52x52 is-circle bg-muted text-primary mx-2"
+                >
+                  <i class="iconify rem-175" data-icon="file-icons:flutter"></i>
+                </div>
+                <div
+                  class="is-flex is-justify-content-center is-align-items-center size-52x52 is-circle bg-muted text-primary mx-2"
+                >
+                  <i class="iconify rem-175" data-icon="simple-icons:ios"></i>
+                </div>
+                <div
+                  class="is-flex is-justify-content-center is-align-items-center size-52x52 is-circle bg-muted text-primary mx-2"
+                >
+                  <i class="iconify rem-175" data-icon="fa-brands:android"></i>
+                </div>
+              </div>
+            </div>
+            <div class="column is-6">
+              <img
+                class="block mx-auto light-image-block"
+                src="/img/vectors/coding.svg"
+                alt="Block image"
+              />
+              <img
+                class="block mx-auto dark-image-block"
+                src="/img/vectors/coding.svg"
+                alt="Block image"
+              />
+            </div>
+          </div>
+        </div>
+
+        <!-- Feature -->
+        <div class="py-6">
+          <div class="columns is-vcentered b-centered-tablet-p">
+            <div class="column is-6">
+              <img
+                class="block mx-auto light-image-block"
+                src="/img/vectors/endpoints.svg"
+                alt="Block image"
+              />
+              <img
+                class="block mx-auto dark-image-block"
+                src="/img/vectors/endpoints.svg"
+                alt="Block image"
+              />
+            </div>
+
+            <div class="column is-5">
+              <span class="is-block is-uppercase mb-2 text-primary">DevOps</span
+              >
+              <h3 class="title is-3 is-narrow max-w-3 small:mx-auto">
+                Repeatable, Observable Deployments
+              </h3>
+              <p class="py-2 max-w-4 text-medium mb-4 small:mx-auto">
+                We build simplified and repeatable deployments running on
+                technology able to scale as required. We practice GitOps
+                ensuring that infrastructure is versioned as code, auditable and repeatable.
+              </p>
+              <p class="py-2 max-w-4 text-medium mb-4 small:mx-auto">
+                We place priority on observability configured with pre-emptive
+                approaches to failure utilising thresholds and alerts in our
+                stacks. Everything is scoped to deliver your business definted and benchmarked SLAs.
+              </p>
+              <!-- infra -->
+              <div class="is-flex py-4">
+                <div
+                  class="is-flex is-justify-content-center is-align-items-center size-52x52 is-circle bg-muted text-primary mx-2"
+                >
+                  <i class="iconify rem-175" data-icon="file-icons:terraform"
+                  ></i>
+                </div>
+                <div
+                  class="is-flex is-justify-content-center is-align-items-center size-52x52 is-circle bg-muted text-primary mx-2"
+                >
+                  <i class="iconify rem-175" data-icon="file-icons:kubernetes"
+                  ></i>
+                </div>
+                <div
+                  class="is-flex is-justify-content-center is-align-items-center size-52x52 is-circle bg-muted text-primary mx-2"
+                >
+                  <i class="iconify rem-175" data-icon="file-icons:docker"></i>
+                </div>
+                <div
+                  class="is-flex is-justify-content-center is-align-items-center size-52x52 is-circle bg-muted text-primary mx-2"
+                >
+                  <i class="iconify rem-175" data-icon="simple-icons:helm"></i>
+                </div>
+              </div>
+              <!-- observability -->
+              <div class="is-flex py-4">
+                <div
+                  class="is-flex is-justify-content-center is-align-items-center size-52x52 is-circle bg-muted text-primary mx-2"
+                >
+                  <i class="iconify rem-175" data-icon="simple-icons:prometheus"
+                  ></i>
+                </div>
+                <div
+                  class="is-flex is-justify-content-center is-align-items-center size-52x52 is-circle bg-muted text-primary mx-2"
+                >
+                  <i class="iconify rem-175" data-icon="simple-icons:grafana"
+                  ></i>
+                </div>
+                <div
+                  class="is-flex is-justify-content-center is-align-items-center size-52x52 is-circle bg-muted text-primary mx-2"
+                >
+                  <i class="iconify rem-175" data-icon="simple-icons:datadog"
+                  ></i>
+                </div>
+                <div
+                  class="is-flex is-justify-content-center is-align-items-center size-52x52 is-circle bg-muted text-primary mx-2"
+                >
+                  <i
+                    class="iconify rem-175"
+                    data-icon="clarity:ci-cd-line"
+                    alt="ci-cd"></i>
+                </div>
+              </div>
+              <!-- cloud -->
+              <div class="is-flex py-4">
+                <div
+                  class="is-flex is-justify-content-center is-align-items-center size-52x52 is-circle bg-muted text-primary mx-2"
+                >
+                  <i class="iconify rem-175" data-icon="simple-icons:amazonaws"
+                  ></i>
+                </div>
+                <div
+                  class="is-flex is-justify-content-center is-align-items-center size-52x52 is-circle bg-muted text-primary mx-2"
+                >
+                  <i
+                    class="iconify rem-175"
+                    data-icon="simple-icons:googlecloud"></i>
+                </div>
+                <div
+                  class="is-flex is-justify-content-center is-align-items-center size-52x52 is-circle bg-muted text-primary mx-2"
+                >
+                  <i
+                    class="iconify rem-175"
+                    data-icon="simple-icons:azuredevops"></i>
+                </div>
+                <div
+                  class="is-flex is-justify-content-center is-align-items-center size-52x52 is-circle bg-muted text-primary mx-2"
+                >
+                  <i
+                    class="iconify rem-175"
+                    data-icon="simple-icons:digitalocean"
+                    alt="ci-cd"></i>
+                </div>
+              </div>
+              <!-- <a class="action-link" href="#">
+                <span>Learn more about sharing</span>
+                <i class="iconify" data-icon="lucide:arrow-right"></i>
+              </a> -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Feature -->
+        <div class="py-6">
+          <div class="columns is-vcentered b-centered-tablet-p">
+            <div class="column is-5 is-offset-1">
+              <span class="is-block is-uppercase mb-2 text-primary"
+                >Quality</span
+              >
+              <h3 class="title is-3 is-narrow max-w-3 small:mx-auto">
+                Test, Test, Test...
+              </h3>
+              <p class="py-2 max-w-4 text-medium mb-4 small:mx-auto">
+                Passionate about delivering flawless software? So are we.
+                From BDD to TDD, we use the industry standard testing
+                methodologies to ensure your software is top-notch.
+              </p>
+              <p class="py-2 max-w-4 text-medium mb-4 small:mx-auto">
+                With implement comprehensive testing strategies to  
+                squash pesky bugs before they can cause mayhem. Our mission
+                is simple: to deliver high-performing, sleek software products
+                that exceed your expectations and make your business thrive.
+              </p>
+              <!-- cloud -->
+              <div class="is-flex py-4">
+                <div
+                  class="is-flex is-justify-content-center is-align-items-center size-52x52 is-circle bg-muted text-primary mx-2"
+                >
+                  <i class="iconify rem-175" data-icon="simple-icons:cypress"
+                  ></i>
+                </div>
+                <div
+                  class="is-flex is-justify-content-center is-align-items-center size-52x52 is-circle bg-muted text-primary mx-2"
+                >
+                  <i
+                    class="iconify rem-175"
+                    data-icon="simple-icons:vitest"></i>
+                </div>
+                <div
+                  class="is-flex is-justify-content-center is-align-items-center size-52x52 is-circle bg-muted text-primary mx-2"
+                >
+                  <i
+                    class="iconify rem-175"
+                    data-icon="simple-icons:jest"></i>
+                </div>
+                <div
+                  class="is-flex is-justify-content-center is-align-items-center size-52x52 is-circle bg-muted text-primary mx-2"
+                >
+                  <i
+                    class="iconify rem-175"
+                    data-icon="simple-icons:puppeteer"
+                    alt="ci-cd"></i>
+                </div>
+                <div
+                  class="is-flex is-justify-content-center is-align-items-center size-52x52 is-circle bg-muted text-primary mx-2"
+                >
+                  <i
+                    class="iconify rem-175"
+                    data-icon="simple-icons:blazemeter"
+                    alt="ci-cd"></i>
+                </div>
+              </div>
+              <ul class="pl-4 small:hidden">
+                <li class="is-flex is-align-items-center py-2">
+                  <i
+                    class="iconify text-primary rem-125"
+                    data-icon="lucide:check"></i>
+                  <div class="ml-2">
+                    <p class="small:max-w-2 text-medium">Mobile.App testing</p>
+                  </div>
+                </li>
+                <li class="is-flex is-align-items-center py-2">
+                  <i
+                    class="iconify text-primary rem-125"
+                    data-icon="lucide:check"></i>
+                  <div class="ml-2">
+                    <p class="small:max-w-2 text-medium">Web headless testing</p>
+                  </div>
+                </li>
+                <li class="is-flex is-align-items-center py-2">
+                  <i
+                    class="iconify text-primary rem-125"
+                    data-icon="lucide:check"></i>
+                  <div class="ml-2">
+                    <p class="small:max-w-2 text-medium">
+                      API integration testing
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="column is-6">
+              <img
+                class="block mx-auto light-image-block"
+                src="/img/vectors/code-testing.svg"
+                alt="Block image"
+              />
+              <img
+                class="block mx-auto dark-image-block"
+                src="/img/vectors/code-testing.svg"
+                alt="Block image"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Statistics section
+  <div class="section has-pseudo-lines">
+    <div class="container">
+      <div class="has-text-centered py-12">
+        <span class="tag is-primary is-curved is-outlined mb-2">Statistics</span
+        >
+        <h2 class="title is-3">Code Tracking.</h2>
+        <p class="subtitle is-5 text-medium">
+          Nothing is lost, everything is tracked
+        </p>
+      </div>
+
+      Content block: statistics
+      <div class="pb-12">
+        <Statistics />
+      </div>
+    </div>
+  </div> -->
+
+  <div class="section" id="hire-us">
+    <div class="container">
+      <div class="call-block-v3">
+        <div class="card max-w-7 mx-auto px-4 py-6 border-primary">
+          <div class="has-text-centered">
+            <h3 class="title is-3 is-spaced">It's all in the cloud</h3>
+            <p class="subtitle is-6 mx-auto max-w-3 text-medium">
+              We take a cloud native approach leveraging capable open-source tools
+            </p>
+            <a class="button is-primary is-big is-long-2 raised" href="mailto:hello@ardency.io">
+              Hire Us
+            </a>
+
+            <p class="rem-90 py-4 text-light">
+              Experienced with all hyperscale cloud platforms
+            </p>
+            <div class="mx-auto max-w-5 max-w-tablet-p max-w-tp-4">
+              <div
+                class="columns b-columns-half-mobile b-columns-half-tablet-p"
+              >
+                <div class="column large:px-5">
+                  <img
+                    class="block max-w-xs mx-auto filter-invert"
+                    src="/img/logo/brands/aws.svg"
+                    alt=""
+                  />
+                </div>
+                <div class="column large:px-5">
+                  <img
+                    class="block max-w-xs mx-auto filter-invert"
+                    src="/img/logo/brands/gcp.svg"
+                    alt=""
+                  />
+                </div>
+                <div class="column large:px-5">
+                  <img
+                    class="block max-w-xs mx-auto filter-invert"
+                    src="/img/logo/brands/azure.svg"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</Layout>
