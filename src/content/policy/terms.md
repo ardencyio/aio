@@ -10,7 +10,7 @@ tags: ["terms", "documents"]
 language: "en"
 ---
 
-![This is a placeholder image description](/img/vectors/terms-accept.svg)
+![Terms and Conditions](/img/vectors/terms-accept.svg)
 
 # Terms and Conditions
 
